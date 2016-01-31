@@ -11,62 +11,45 @@ Reference:
 | ---------------------------- | ----------- |
 | subject                      | a volunteer performing the tests to register the movement for different activities |
 | activity                     | metrics are registered during specific activities. Possible values are: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying |
-| tbodyaccmeanx<br>tbodyaccmeany<br>tbodyaccmeanz | average of body acceleration variable (time, x/y/z-axis) |
-| tbodyaccstdx<br>tbodyaccstdy<br>tbodyaccstdz    | standard deviation of body acceleration variable (time, x/y/z-axis) |
-| tgravityaccmeanx<br>tgravityaccmeany<br>tgravityaccmeanz | average of gravitational acceleration variable (time, x/y/z-axis) |
-| tgravityaccstdx<br>tgravityaccstdy<br>tgravityaccstdz | standard deviation of gravitational acceleration variable (time, x/y/z-axis) |
-| tbodyaccjerkmeanx<br>tbodyaccjerkmeany<br>tbodyaccjerkmeanz | average of body acceleration variable on jerk signals (time, x/y/z-axis) |
-| tbodyaccjerkstdx<br>tbodyaccjerkstdy<br>tbodyaccjerkstdz | standard deviation of body acceleration variable on jerk signals (time, x/y/z-axis) |
-| tbodygyromeanx<br>tbodygyromeany<br>tbodygyromeanz | average of body angular velocity variable using a gyroscope (time, x/y/z-axis) |
-| tbodygyrostdx<br>tbodygyrostdy<br>tbodygyrostdz | standard deviation of body  angular velocity variable using a gyroscope (time, x/y/z-axis) |
-| tbodygyrojerkmeanx<br>tbodygyrojerkmeany<br>tbodygyrojerkmeanz | average of body angular velocity variable using a gyroscope on jerk signals(time, x/y/z-axis) |
-| tbodygyrojerkstdx<br>tbodygyrojerkstdy<br>tbodygyrojerkstdz | standard deviation of body  angular velocity variable using a gyroscope on jerk signals (time, x/y/z-axis) |
-| tbodyaccmagmean              | average of the acceleration magnitude of the three-dimensional signals, calculated using the Euclidean norm (time) |
-| tbodyaccmagstd               | standard deviation of the acceleration magnitude of the three-dimensional signals, calculated using the Euclidean norm (time) |
-| tgravityaccmagmean           | average of gravitational acceleration magnitude (time) |
-| tgravityaccmagstd            | standard deviation of gravitational acceleration magnitude (time) |
-| tbodyaccjerkmagmean          | average of the acceleration magnitude on jerk signals (time) |
-| tbodyaccjerkmagstd           | standard deviation of the acceleration magnitude jerk signals (time) |
-| tbodygyromagmean             | average of body angular velocity magnitude (time) |
-| tbodygyromagstd              | standard deviation of body angular velocity magnitude (time) |
-| tbodygyrojerkmagmean         | average of body angular velocity magnitude on jerk signals (time) |
-| tbodygyrojerkmagstd          | standard deviation of body angular velocity magnitude on jerk signals (time) |
-| fbodyaccmeanx<br><br> |
-| fbodyaccmeany                |
-| fbodyaccmeanz                |
-| fbodyaccstdx<br><br> |
-| fbodyaccstdy                 |
-| fbodyaccstdz                 |
-| fbodyaccmeanfreqx<br><br> |
-| fbodyaccmeanfreqy            |
-| fbodyaccmeanfreqz            | 
-| fbodyaccjerkmeanx<br><br> |
-| fbodyaccjerkmeany            |
-| fbodyaccjerkmeanz            |
-| fbodyaccjerkstdx<br><br> |
-| fbodyaccjerkstdy             |
-| fbodyaccjerkstdz             |
-| fbodyaccjerkmeanfreqx<br><br> |
-| fbodyaccjerkmeanfreqy        |
-| fbodyaccjerkmeanfreqz        |
-| fbodygyromeanx<br><br> |
-| fbodygyromeany               |
-| fbodygyromeanz               |
-| fbodygyrostdx<br><br> |
-| fbodygyrostdy                |
-| fbodygyrostdz                |
-| fbodygyromeanfreqx<br><br> |
-| fbodygyromeanfreqy           |
-| fbodygyromeanfreqz           |
-| fbodyaccmagmean              |
-| fbodyaccmagstd               |
-| fbodyaccmagmeanfreq          |
-| fbodybodyaccjerkmagmean      |
-| fbodybodyaccjerkmagstd       |
-| fbodybodyaccjerkmagmeanfreq  |
-| fbodybodygyromagmean         |
-| fbodybodygyromagstd          |
-| fbodybodygyromagmeanfreq     |
-| fbodybodygyrojerkmagmean     |
-| fbodybodygyrojerkmagstd      |
-| fbodybodygyrojerkmagmeanfreq |
+| tbodyaccmeanx<br>tbodyaccmeany<br>tbodyaccmeanz | average of body acceleration variable (time based, x/y/z-axis) |
+| tbodyaccstdx<br>tbodyaccstdy<br>tbodyaccstdz    | standard deviation of body acceleration variable (time based, x/y/z-axis) |
+| tgravityaccmeanx<br>tgravityaccmeany<br>tgravityaccmeanz | average of gravitational acceleration variable (time based, x/y/z-axis) |
+| tgravityaccstdx<br>tgravityaccstdy<br>tgravityaccstdz | standard deviation of gravitational acceleration variable (time based, x/y/z-axis) |
+| tbodyaccjerkmeanx<br>tbodyaccjerkmeany<br>tbodyaccjerkmeanz | average of body acceleration variable on jerk signals (time based, x/y/z-axis) |
+| tbodyaccjerkstdx<br>tbodyaccjerkstdy<br>tbodyaccjerkstdz | standard deviation of body acceleration variable on jerk signals (time based, x/y/z-axis) |
+| tbodygyromeanx<br>tbodygyromeany<br>tbodygyromeanz | average of body angular velocity variable using a gyroscope (time based, x/y/z-axis) |
+| tbodygyrostdx<br>tbodygyrostdy<br>tbodygyrostdz | standard deviation of body  angular velocity variable using a gyroscope (time based, x/y/z-axis) |
+| tbodygyrojerkmeanx<br>tbodygyrojerkmeany<br>tbodygyrojerkmeanz | average of body angular velocity variable using a gyroscope on jerk signals(time based, x/y/z-axis) |
+| tbodygyrojerkstdx<br>tbodygyrojerkstdy<br>tbodygyrojerkstdz | standard deviation of body  angular velocity variable using a gyroscope on jerk signals (time based, x/y/z-axis) |
+| tbodyaccmagmean              | average of the acceleration magnitude of the three-dimensional signals, calculated using the Euclidean norm (time based) |
+| tbodyaccmagstd               | standard deviation of the acceleration magnitude of the three-dimensional signals, calculated using the Euclidean norm (time based) |
+| tgravityaccmagmean           | average of gravitational acceleration magnitude (time based) |
+| tgravityaccmagstd            | standard deviation of gravitational acceleration magnitude (time based) |
+| tbodyaccjerkmagmean          | average of the acceleration magnitude on jerk signals (time based) |
+| tbodyaccjerkmagstd           | standard deviation of the acceleration magnitude jerk signals (time based) |
+| tbodygyromagmean             | average of body angular velocity magnitude (time based) |
+| tbodygyromagstd              | standard deviation of body angular velocity magnitude (time based) |
+| tbodygyrojerkmagmean         | average of body angular velocity magnitude on jerk signals (time based) |
+| tbodygyrojerkmagstd          | standard deviation of body angular velocity magnitude on jerk signals (time based) |
+
+| fbodyaccmeanx<br><fbodyaccmeanybr>fbodyaccmeanz |
+| fbodyaccstdx<br>fbodyaccstdy<br>fbodyaccstdz |
+| fbodyaccmeanfreqx<br>fbodyaccmeanfreqy<br>fbodyaccmeanfreqz |
+| fbodyaccjerkmeanx<br>fbodyaccjerkmeany<br>fbodyaccjerkmeanz |
+| fbodyaccjerkstdx<br>fbodyaccjerkstdy<br>fbodyaccjerkstdz |
+| fbodyaccjerkmeanfreqx<br>fbodyaccjerkmeanfreqy<br>fbodyaccjerkmeanfreqz |
+| fbodygyromeanx<br>fbodygyromeany<br>fbodygyromeanz |
+| fbodygyrostdx<br>fbodygyrostdy<br>fbodygyrostdz |
+| fbodygyromeanfreqx<br>fbodygyromeanfreqy<br>fbodygyromeanfreqz |
+| fbodyaccmagmean              | average of the acceleration magnitude of the three-dimensional signals, calculated using the Euclidean norm (frequency based) |
+| fbodyaccmagstd               | standard deviation of the acceleration magnitude of the three-dimensional signals, calculated using the Euclidean norm (frequency based) |
+| fbodyaccmagmeanfreq          | weighted average of the frequency components of the acceleration magnitude |
+| fbodybodyaccjerkmagmean      | average of the acceleration magnitude on jerk signals (frequency based) |
+| fbodybodyaccjerkmagstd       | standard deviation of the acceleration magnitude jerk signals (frequency based) |
+| fbodybodyaccjerkmagmeanfreq  | weighted average of the frequency components of the acceleration magnitude on jerk signals |
+| fbodybodygyromagmean         | average of body angular velocity magnitude (frequency based) |
+| fbodybodygyromagstd          | standard deviation of body angular velocity magnitude (frequency based) |
+| fbodybodygyromagmeanfreq     | weighted average of the frequency components of body angular velocity magnitude |
+| fbodybodygyrojerkmagmean     | average of body angular velocity magnitude on jerk signals (frequency based) |
+| fbodybodygyrojerkmagstd      | standard deviation of body angular velocity magnitude on jerk signals (frequency based) |
+| fbodybodygyrojerkmagmeanfreq | weighted average of the frequency components of body angular velocity magnitude on jerk signals |
