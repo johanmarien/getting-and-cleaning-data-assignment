@@ -31,16 +31,15 @@ Reference:
 | tbodygyromagstd              | standard deviation of body angular velocity magnitude (time based) |
 | tbodygyrojerkmagmean         | average of body angular velocity magnitude on jerk signals (time based) |
 | tbodygyrojerkmagstd          | standard deviation of body angular velocity magnitude on jerk signals (time based) |
-
-| fbodyaccmeanx<br><fbodyaccmeanybr>fbodyaccmeanz |
-| fbodyaccstdx<br>fbodyaccstdy<br>fbodyaccstdz |
-| fbodyaccmeanfreqx<br>fbodyaccmeanfreqy<br>fbodyaccmeanfreqz |
-| fbodyaccjerkmeanx<br>fbodyaccjerkmeany<br>fbodyaccjerkmeanz |
-| fbodyaccjerkstdx<br>fbodyaccjerkstdy<br>fbodyaccjerkstdz |
-| fbodyaccjerkmeanfreqx<br>fbodyaccjerkmeanfreqy<br>fbodyaccjerkmeanfreqz |
-| fbodygyromeanx<br>fbodygyromeany<br>fbodygyromeanz |
-| fbodygyrostdx<br>fbodygyrostdy<br>fbodygyrostdz |
-| fbodygyromeanfreqx<br>fbodygyromeanfreqy<br>fbodygyromeanfreqz |
+| fbodyaccmeanx<br><fbodyaccmeanybr>fbodyaccmeanz | average of body acceleration variable (frequency based, x/y/z-axis) |
+| fbodyaccstdx<br>fbodyaccstdy<br>fbodyaccstdz | standard deviation of body acceleration variable (frequency based, x/y/z-axis) |
+| fbodyaccmeanfreqx<br>fbodyaccmeanfreqy<br>fbodyaccmeanfreqz | weighted average of the frequency components of body acceleration variable |
+| fbodyaccjerkmeanx<br>fbodyaccjerkmeany<br>fbodyaccjerkmeanz | average of body acceleration variable on jerk signals (frequency based, x/y/z-axis) |
+| fbodyaccjerkstdx<br>fbodyaccjerkstdy<br>fbodyaccjerkstdz | standard deviation of body acceleration variable on jerk signals (frequency based, x/y/z-axis) |
+| fbodyaccjerkmeanfreqx<br>fbodyaccjerkmeanfreqy<br>fbodyaccjerkmeanfreqz | weighted average of the frequency components of body acceleration variable on jerk signals |
+| fbodygyromeanx<br>fbodygyromeany<br>fbodygyromeanz | average of body angular velocity variable using a gyroscope (frequency based, x/y/z-axis) |
+| fbodygyrostdx<br>fbodygyrostdy<br>fbodygyrostdz | standard deviation of body  angular velocity variable using a gyroscope (frequency based, x/y/z-axis) |
+| fbodygyromeanfreqx<br>fbodygyromeanfreqy<br>fbodygyromeanfreqz | weighted average of the frequency components of body angular velocity |
 | fbodyaccmagmean              | average of the acceleration magnitude of the three-dimensional signals, calculated using the Euclidean norm (frequency based) |
 | fbodyaccmagstd               | standard deviation of the acceleration magnitude of the three-dimensional signals, calculated using the Euclidean norm (frequency based) |
 | fbodyaccmagmeanfreq          | weighted average of the frequency components of the acceleration magnitude |
